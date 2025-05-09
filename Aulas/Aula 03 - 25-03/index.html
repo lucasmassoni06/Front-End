@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+</head>
+
+<body>
+    <form action="">
+        <fieldset> <!-- fieldset cria uma borda ao envolta das informações -->
+            <legend>Formulário</legend>
+            <h3>Gênero:</h3>
+            <!-- type="radio" é selecionar apenas uma das opções
+        por o name="" ser igual obriga a escolha de apenas um -->
+            <input type="radio" name="genero" value="masculino">
+            <span>Masculino</span><br><!--<br> faz ficar na linha de baixo-->
+            <input type="radio" name="genero" value="femenino">
+            <span>Femenino</span><br>
+            <input type="radio" name="genero" value="outros">
+            <span>Outros</span><br>
+
+            <hr>
+
+            <h3>Meios de transportes para ir à FIAP:</h3>
+            <!-- type="checkbox" possibilita a escolha de mais de uma das opções -->
+            <input type="checkbox" name="transportes" value="a_pe">
+            <span>À pé</span><br>
+            <input type="checkbox" name="transportes" value="onibus">
+            <span>Ônibus</span><br>
+            <input type="checkbox" name="transportes" value="metro">
+            <span>Metro</span><br>
+            <input type="checkbox" name="transportes" value="carro">
+            <span>Carro</span><br>
+
+            <hr>
+            <h3>Selecione o tamanho:</h3>
+            <!-- select obriga a pessoa a escolher apenas uma das opções que você colocar a disposição-->
+            <select name="tamanho">
+                <option value="p">Pequeno</option>
+                <option value="m">Médio</option>
+                <option value="g">Grande</option>
+            </select>
+
+            <br>
+            <hr>
+
+            <label for="nome_sobrenome">Nome e Sobrenome:</label>
+            <input type="text" name="nome_sobrenome"
+                placeholder="Digite seu nome..."><!-- placeholder="" é para mensagens dentro da caixa de resposta -->
+
+            <br><br>
+
+            <button type="submit">Enviar</button><!--type="submit" envia as informações (neste caso para a URL)-->
+            <button type="reset">Limpar</button> <!--type="reset" limpa as informações dos fomulário acima-->
+
+        </fieldset>
+    </form>
+
+    <hr><br><br>
+
+    <!-- scr="" link da foto desejada // width="" tamanho da foto -->
+    <img src="cachorro_caramelo.jpg" alt="Cachorro Caramelo" width="100px">
+    <!-- ../ para voltar um diretorio -->
+    <img src="../img/logo_fiap.png" alt="Cachorro Caramelo" width="100px">
+
+    <hr><br>
+
+    <!-- imagem clicavel que te leva para um link -->
+    <a href="https://www.fiap.com.br" target="blank" title="Ir ao site da FIAP">
+        <img src="../img/logo_fiap.png" alt="Logo Fiap" width="60px">
+    </a>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/EWlsH7cKhII?si=pqyKiIdLmIPLOSqh"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</body>
+
+</html>

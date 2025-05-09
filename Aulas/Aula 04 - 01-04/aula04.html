@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula de CSS</title>
+
+    <link rel="stylesheet" href="aula04.css"><!-- linkar o css com o html -->
+
+    <!-- ccs interno -->
+
+    <style>
+        /*seletor {
+            propriedades: valor:
+        }
+        section {
+            background-color: brown;
+            width: 500px;
+            height: 500px;
+        }
+
+        section article p {
+            background-color: blueviolet;
+        }*/
+
+        /* Do exemplo prático */
+
+        /* section {
+            padding:50px 30px 20px 60px;
+            margin-left:40px;
+        }
+        section article {
+            background-color:#cccccc;
+            width:500px;
+            height:500px;
+        }
+        section article p {
+            line-height:4; Altura entre linhas 
+        } */
+        .exemplopratico {
+            background-color: red;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Olá Mundo!</h1>
+
+    <!-- css inline -->
+
+    <p style="color:aqua;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Lorem ipsum dolor
+        sit amet consectetur, adipisicing elit. Quis, ex!</p>
+    <section>
+        <article>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, perspiciatis.</p>
+        </article>
+    </section>
+
+    <!--Exemplo prático -->
+
+    <section class="exemploPratico"> <!--o class é feito para não ter que citar todos os blocos-->
+        <article>
+            <h2>Título</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos a laboriosam iusto tenetur. Quo suscipit
+                alias, expedita eligendi praesentium doloribus laboriosam iure obcaecati fuga, corrupti ad, rerum sint
+                aliquid! Labore qui commodi ratione assumenda, suscipit temporibus ex tenetur adipisci libero.
+            </p>
+        </article>
+    </section>
+</body>
+
+</html>
