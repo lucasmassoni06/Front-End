@@ -1,0 +1,43 @@
+body {
+    display: flex;
+}
+.nav {
+    height: 639px;
+    width: 200px;
+    background-color: orange;
+    color: white;
+    text-align: center;
+}
+.cab {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    width: 1088px;
+    height: 100px;
+
+}
+.roda {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    width: 1088px;
+    height: 100px;
+}
+.pag1{
+    display: flex;
+    flex-direction: row;
+}
+.cont{
+    color: white;
+    background-color: purple;
+    height: 439px;
+    width: 888px;
+    text-align: center;
+}
+.barra{
+    color: white;
+    background-color: orange;
+    height: 439px;
+    width: 200px;
+    text-align: center;
+}

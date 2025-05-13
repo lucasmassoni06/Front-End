@@ -1,0 +1,74 @@
+/*Flex-Direction / Align-Itens*/
+
+.caixa-cinza {
+    background-color: rgb(70, 59, 59);
+    height: 200px;
+    display: flex;
+    flex-direction: row; /*row --> em linha*/
+    align-items: flex-start ;
+}
+.caixa-direction {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 10px;
+    position: relative;
+}
+.numero {
+    font-size:150%;
+    color: orange;
+    font-weight: bold;
+}
+.circulo {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    background-color: rgb(180, 158, 158);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*Flex-Wrap*/
+
+.caixa-branca {
+    background-color: white;
+    border: solid 1px yellow;
+    padding: 20px;
+    display: flex;
+    flex-flow: row wrap;
+}
+.caixa-wrap {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    position: relative;
+}
+
+/*Justify-Content (linha)*/
+
+.caixa-azul {
+    background-color: blue;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.caixa-justify {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(171, 87, 168);
+    margin: 5px;
+    border-radius: 10px;
+}
